@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PlaylistWindow</class>
+ <widget class="QWidget" name="PlaylistWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>568</width>
+    <height>465</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="windowOpacity">
+   <double>1.000000000000000</double>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QTableView" name="plsView"/>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="btnLoadPlaylist">
+         <property name="text">
+          <string>Load ...</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnAddVideo">
+         <property name="text">
+          <string>Add video...</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnSavePlaylist">
+         <property name="text">
+          <string>Save ...</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnClearPlaylist">
+         <property name="text">
+          <string>Clear</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnRemoveSelected">
+         <property name="text">
+          <string>Remove Selected</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnHide">
+         <property name="text">
+          <string>Hide</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+  <action name="action_remove_selected_items_from_playlist">
+   <property name="text">
+    <string>Remove selected items from playlist</string>
+   </property>
+  </action>
+  <action name="action_remove_selected_items_from_HDD">
+   <property name="text">
+    <string>Remove selected items from HDD</string>
+   </property>
+  </action>
+  <action name="action_clear_playlist">
+   <property name="text">
+    <string>Clear playlist</string>
+   </property>
+  </action>
+  <action name="actionAdd_video_to_playlist">
+   <property name="text">
+    <string>Add video to playlist</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
+
