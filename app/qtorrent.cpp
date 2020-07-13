@@ -24,8 +24,8 @@ QTorrent::QTorrent()
 	m_LSDClient = new LocalServiceDiscoveryClient;
 	m_mainWindow = new MainWindow;
 
-	// Generate random peer id that starts with 'qT'
-	m_peerId.push_back("qT");
+    // Generate random peer id that starts with 'B'
+    m_peerId.push_back("B");
 	while (m_peerId.size() < 20) {
 		m_peerId.push_back(char(qrand() % 256));
 	}
